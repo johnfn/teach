@@ -6,19 +6,19 @@ Teach people how to program in the best way.
 
 Install the required node packages.
 
-    npm install
+    $ npm install
 
 Optional: Install the foreman gem.
 
-    gem install foreman
+    $ gem install foreman
 
 ## Start the web server
 
 If you installed foreman:
 
-    foreman start
+    $ foreman start
 
 If not:
 
-    coffee web.coffee
+    $ coffee web.coffee
 
