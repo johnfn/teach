@@ -1,20 +1,24 @@
-# Set up your dev environment
+# teach
 
-Make sure you have all the required node packages.
+Teach people how to program in the best way.
+
+## Set up your dev environment
+
+Install the required node packages.
 
     npm install
 
-Optional: Make sure you have the Foreman gem installed.
+Optional: Install the foreman gem.
 
     gem install foreman
 
-# Start the web server
+## Start the web server
 
 If you installed foreman:
 
     foreman start
 
-Otherwise:
+If not:
 
     coffee web.coffee
 
